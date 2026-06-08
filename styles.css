@@ -79,6 +79,36 @@ body.invitation-hidden .page-shell .page-footer {
   text-transform: none;
 }
 
+.intro-monogram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.mono-letter {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(3.5rem, 9vw, 5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.mono-amp {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2rem, 5vw, 2.5rem);
+  font-weight: 700;
+  color: rgba(58, 47, 40, 0.6);
+}
+
+.intro-date {
+  margin: 0.25rem 0 1.5rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 .tap-hint {
   margin: 0 0 1rem;
   font-size: 1rem;
