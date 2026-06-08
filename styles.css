@@ -680,6 +680,17 @@ textarea:focus {
   font-size: 0.95rem;
 }
 
+.footer-hashtag {
+  margin-top: 1.5rem;
+}
+
+.hashtag {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.05em;
+}
+
 .lightbox {
   position: fixed;
   inset: 0;
